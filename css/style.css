@@ -1,0 +1,58 @@
+:root {
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #f5f7fb;
+      line-height: 1.6;
+    }
+    body {
+      margin: 0;
+    }
+    header {
+      background: #0b3d91;
+      color: #fff;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    .section {
+      margin-bottom: 2rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      padding: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+    .skills, .projects {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .card {
+      background: #f9fbff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 1rem;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.25rem;
+      background: #0b3d91;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
